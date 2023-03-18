@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+#container{
+    /* min-height: 350px;
+    min-width: 500px; */
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border:2px solid green;
+    /* margin: 0% 30% 0% 30%; */
+    left: 35%;
+    top: 10%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+#ball{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    /* position: absolute; */
+}
